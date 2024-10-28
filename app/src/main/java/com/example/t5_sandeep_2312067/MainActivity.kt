@@ -22,5 +22,31 @@ class MainActivity : AppCompatActivity() {
             val intent2= Intent(this,KgToGram::class.java)
             startActivity(intent2)
         }
+        val second1AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.masstoweight)
+        second1AdsButton.setOnClickListener{
+            val intent2= Intent(this,MassToWeight::class.java)
+            startActivity(intent2)
+        }
+        val second2AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.hourtosecond)
+        second2AdsButton.setOnClickListener{
+            val intent2= Intent(this,HourToSecond::class.java)
+            startActivity(intent2)
+        }
+        val second3AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.celciustokelvin)
+        second3AdsButton.setOnClickListener{
+            val intent2= Intent(this,CelciusToKelvin::class.java)
+            startActivity(intent2)
+        }
+        val second4AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.metertofoot)
+        second4AdsButton.setOnClickListener{
+            val intent2= Intent(this,MeterToFoot::class.java)
+            startActivity(intent2)
+        }
+        val second5AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.mphtokph)
+        second5AdsButton.setOnClickListener{
+            val intent2= Intent(this,mphTokph::class.java)
+            startActivity(intent2)
+        }
+
     }
 }

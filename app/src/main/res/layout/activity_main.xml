@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/back"
+    android:gravity="center"
     >
 
 
@@ -32,7 +33,7 @@
             android:layout_height="180dp"
             app:cardBackgroundColor="#FDFCFD"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -56,11 +57,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/masstoweight"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor= "#FEFCFF"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="25dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -72,12 +74,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="Mass To Weight"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#050505"
                 android:textStyle="bold"
-                android:textSize="20sp">
+                android:textSize="15sp">
 
             </TextView>
 
@@ -90,11 +92,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/hourtosecond"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor="#FDFBFD"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -106,23 +109,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="Hour to Second"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#070404"
                 android:textStyle="bold"
-                android:textSize="20sp">
+                android:textSize="18sp">
 
             </TextView>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/celciustokelvin"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor="#FFFDFF"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="25dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -134,12 +138,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="Celcius To Kelvin"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#090202"
                 android:textStyle="bold"
-                android:textSize="20sp">
+                android:textSize="15sp">
 
             </TextView>
 
@@ -152,11 +156,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/metertofoot"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor="#F9F6FA"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -168,7 +173,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="Meter to Foot"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#0B0909"
@@ -180,11 +185,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/mphtokph"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor="#F7F5F8"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="25dp"
+            android:layout_marginStart="15dp"
             app:cardCornerRadius="25dp">
             <ImageView
                 android:layout_width="150dp"
@@ -196,7 +202,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="mph to kph"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#070505"

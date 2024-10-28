@@ -11,14 +11,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convert Kg to Gram"
-        android:textSize="35sp"
+        android:text="Convert Mass to Weight"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:textColor="#E80707"/>
 
     <EditText
-        android:id="@+id/kgText"
+        android:id="@+id/MassText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -26,16 +26,16 @@
         android:textColor="@color/black"
         android:layout_marginTop="35dp"
         android:layout_gravity="center"
-        android:text="In Kg" />
+        android:text="Mass" />
 
     <Button
-        android:id="@+id/buttonKgToGram"
+        android:id="@+id/buttonMassToWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="#021887"
         android:textColor="@color/white"
-        android:text="Convert To Gram" />
+        android:text="Convert To Weight" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         android:orientation="vertical"
         android:gravity="center">
         <ImageView
-            android:id="@+id/MassToWeight"
+            android:id="@+id/kgtolbs"
             android:layout_width="200dp"
             android:layout_height="100dp"
             android:layout_marginTop="35dp"
