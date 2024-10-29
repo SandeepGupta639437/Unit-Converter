@@ -28,7 +28,7 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/kgtolbs"
+            android:id="@+id/kgtopounds"
             android:layout_width="150dp"
             android:layout_height="180dp"
             app:cardBackgroundColor="#FDFCFD"
@@ -45,7 +45,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kg to Lbs"
+                android:text="Kg to Pounds"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
                 android:textColor="#0B0909"

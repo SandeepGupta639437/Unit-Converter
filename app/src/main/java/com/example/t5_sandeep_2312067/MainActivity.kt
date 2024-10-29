@@ -17,9 +17,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val secondAdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.kgtolbs)
+        val secondAdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.kgtopounds)
         secondAdsButton.setOnClickListener{
-            val intent2= Intent(this,KgToGram::class.java)
+            val intent2= Intent(this,KgToPounds::class.java)
             startActivity(intent2)
         }
         val second1AdsButton = findViewById<androidx.cardview.widget.CardView>(R.id.masstoweight)

@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KgToGram"
+    tools:context=".KgToPounds"
     android:background="@color/white"
     android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convert Kg to Gram"
+        android:text="Convert Kg to Pounds"
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -26,48 +26,31 @@
         android:textColor="@color/black"
         android:layout_marginTop="35dp"
         android:layout_gravity="center"
-        android:text="In Kg" />
+        android:hint="In Kg" />
 
     <Button
-        android:id="@+id/buttonKgToGram"
+        android:id="@+id/buttonKgToPounds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="#021887"
         android:textColor="@color/white"
-        android:text="Convert To Gram" />
+        android:text="Convert To Pounds" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Result"
+        android:id="@+id/PoundsResult"
+        android:text=""
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_gravity="center"/>
 
-    <LinearLayout
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
-        <ImageView
-            android:id="@+id/MassToWeight"
-            android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="35dp"
-            android:src="@drawable/back"/>
-        <ImageView
-            android:id="@+id/HourToSecond"
-            android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="35dp"
-            android:src="@drawable/back"/>
-        <ImageView
-            android:id="@+id/CelciusToKelvin"
-            android:layout_width="200dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="35dp"
-            android:src="@drawable/back"/>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:text="Back To HomePage"
+        android:id="@+id/Home_Button"
+        android:layout_marginTop="50dp"/>
 </LinearLayout>

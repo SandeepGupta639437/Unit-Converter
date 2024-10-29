@@ -10,11 +10,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class mphTokph : AppCompatActivity() {
+class KgToPounds : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_mph_tokph)
+        setContentView(R.layout.activity_kg_to_pounds)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -23,20 +23,21 @@ class mphTokph : AppCompatActivity() {
         val homeButton: Button = findViewById<Button>(R.id.Home_Button)
 
         homeButton.setOnClickListener{
-            val intent = Intent(this@mphTokph , MainActivity::class.java)
+            val intent = Intent(this@KgToPounds , MainActivity::class.java)
             startActivity(intent)
         }
-        val edt : EditText = findViewById<EditText>(R.id.mphText)
-        val btn : Button = findViewById<Button>(R.id.buttonmphtokph)
-        val resultText: TextView = findViewById<TextView>(R.id.kphResult)
+        val edt : EditText = findViewById<EditText>(R.id.kgText)
+        val btn : Button = findViewById<Button>(R.id.buttonKgToPounds)
+        val resultText: TextView = findViewById<TextView>(R.id.PoundsResult)
         btn.setOnClickListener(){
-            val mph : Double = edt.text.toString().toDouble()
+            val Kg : Double = edt.text.toString().toDouble()
 
-            resultText.setText("" + converttokph(mph) + " " + "kph")
+            resultText.setText("" + converttoPounds(Kg) + " " + "Pounds")
         }
     }
-    fun converttokph(mph : Double): Double{
-        var kph = mph*1.60934
-        return kph
+    fun converttoPounds(Kg : Double): Double{
+        var pounds = Kg*2.2
+
+        return pounds
     }
 }
