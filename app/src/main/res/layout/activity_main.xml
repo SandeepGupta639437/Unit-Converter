@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F4F003"
-        android:text="Let's Begin"
+        android:text="Let's Begin 👍"
         android:textStyle="bold"
         android:textSize="30sp"
         android:layout_gravity="center"
@@ -40,7 +40,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/kgtopounds">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/masstoweight">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/hourtosecond">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -133,7 +133,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/celciustokelvin">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -168,7 +168,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/metertofoot">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="-10dp"
-                android:src="@drawable/back">
+                android:src="@drawable/mphtokph">
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
