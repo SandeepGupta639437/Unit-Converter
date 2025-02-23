@@ -25,16 +25,17 @@ Material Design - For intuitive and responsive UI
 🎯 Screenshots
 
 ### Authentication Screens 
-<div style="display: inline-block; margin-right: 20px; display: flex; justify-content: space-around;">
+<div style="display: inline-block;  display: flex; justify-content: space-around;">
 
 <!-- Add space here -->  
-<img src="https://github.com/user-attachments/assets/b9c27706-18bc-4c87-bee8-d4b989e49369" alt="News App Screenshot 1" width="150" >
+<img src="https://github.com/user-attachments/assets/b9c27706-18bc-4c87-bee8-d4b989e49369" alt="News App Screenshot 1" width="150" hspace="20">
 <!-- Add space here -->
-<img src="https://github.com/user-attachments/assets/2516c421-5ba2-4a28-a206-248a3ba6b68c" alt="News App Screenshot 1" width="150" >
+<img src="https://github.com/user-attachments/assets/2516c421-5ba2-4a28-a206-248a3ba6b68c" alt="News App Screenshot 1" width="150" hspace="20">
+<br>
 <!-- Add space here -->
-<img src="https://github.com/user-attachments/assets/8f6ed329-88f3-43f6-92a6-0612dfe7c90f" alt="News App Screenshot 1" width="150" >
+<img src="https://github.com/user-attachments/assets/8f6ed329-88f3-43f6-92a6-0612dfe7c90f" alt="News App Screenshot 1" width="150" hspace="20" >
 <!-- Add space here -->
-<img src="https://github.com/user-attachments/assets/ce192b60-3257-4f3d-acca-30b5b677b926" alt="News App Screenshot 1" width="150" >
+<img src="https://github.com/user-attachments/assets/ce192b60-3257-4f3d-acca-30b5b677b926" alt="News App Screenshot 1" width="150" hspace="20" >
 </div>
 
 
